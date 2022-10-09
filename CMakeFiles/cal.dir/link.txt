@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/cal.dir/src/add.cpp.o CMakeFiles/cal.dir/src/main.cpp.o CMakeFiles/cal.dir/src/mul.cpp.o CMakeFiles/cal.dir/src/myClasses.cpp.o CMakeFiles/cal.dir/src/tools.cpp.o  -o cal 
