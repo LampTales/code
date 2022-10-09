@@ -119,6 +119,8 @@ Num Num::operator/(Num n2) {
         cout << "you can't divide a num by 0! The answer is given zero!" << endl;
         Num num = {"0", true};
     }
+    a.sign = true;
+    b.sign = true;
     Num ans = createNum(0);
     for (int i = magni(a.num, b.num); i > -9; i--) {
         // cout << "Now i = " << i << endl;
@@ -135,7 +137,7 @@ Num Num::operator/(Num n2) {
         }
     }
     ans.num = subZero(ans.num);
-    ans.sign = (a.sign == b.sign);
+    ans.sign = (this->sign == n2.sign);
     return ans;
 }
 
@@ -144,6 +146,7 @@ Num sqt(Num num) {
     if (num.sign == false) {
         cout << "function sqt does not support negative number! The answer is given zero!" << endl;
         Num num = {"0", true};
+        return num;
     }
     Num ans = createNum(0);
     for (int i = digit; i > -9; i--) {

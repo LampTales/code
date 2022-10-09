@@ -33,29 +33,29 @@ string trim(string str);  // finish
 
 bool veriDef(vector<Ver>& veris, string str);  // finish
 
-int dotSpot(Num num); // finish
+int dotSpot(Num num);  // finish
 
-void align(Num n1, Num n2, Num& a, Num& b); // finish
+void align(Num n1, Num n2, Num& a, Num& b);  // finish
 
-string subZero(string str);
+string subZero(string str);  // finish
 
-bool bigger(string const a, string const b); // finish
+bool bigger(string const a, string const b);  // finish
 
-bool compare(Num n1, Num n2);
+bool compare(Num n1, Num n2);  // finish
 
-string getCom(string str); // finish
+string getCom(string str);  // finish
 
-int getHighest(string str);
+int getHighest(string str);  // finish
 
-int magni(string a, string b);
+int magni(string a, string b);  // finish
 
-Num pow(Num num, int i);
+Num pow(Num num, int i);  // finish
 
-int cntFM(string num);
-string fixF(string num);
+int cntFM(string num);    // finish
+string fixF(string num);  // finish
 
-string moving(string ori, int move);
+string moving(string ori, int move);  // finish
 
-string fixE(string str);
+string fixE(string str);  // finish
 
-Num sqt(Num num);
+Num sqt(Num num);  // finish
