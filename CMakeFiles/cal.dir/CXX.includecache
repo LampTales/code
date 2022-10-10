@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/wiman/CppSaving/Project2/code/src/main.cpp
+iostream
+-
+vector
+-
+stuffs.hpp
+/home/wiman/CppSaving/Project2/code/src/stuffs.hpp
+
 /home/wiman/CppSaving/Project2/code/src/myClasses.cpp
 iostream
 -

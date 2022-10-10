@@ -24,7 +24,8 @@ Num createNumWall(string str) {
     Num num;
     if (str.length() == 0) {
         num.sign = true;
-        num.num = "0";
+        // cout << "*" << endl;
+        num.num = "N";
         return num;
     }
 

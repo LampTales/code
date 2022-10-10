@@ -29,15 +29,16 @@ Num getNum(int& pos, string const str, vector<Ver> veris) {
 
     int i = 0;
     bool hasdot = false;
-    int espot = -1;
+    int espot = -2;
     bool hasEsign = false;
     for (i = pos; i < (int)str.length(); i++) {
+        // cout << str[i] << endl;
         if (str[i] >= '0' && str[i] <= '9') {
             // cout << str[i] << endl;
             continue;
         } else if (str[i] == '.' && i != pos && !hasdot) {
             hasdot = true;
-        } else if ((str[i] == 'e' || str[i] == 'E') && espot == -1 && i != pos) {
+        } else if ((str[i] == 'e' || str[i] == 'E') && espot == -2 && i != pos) {
             espot = i;
         } else if ((str[i] == '+' || str[i] == '-') && espot == i - 1 && !hasEsign) {
             hasEsign = true;
